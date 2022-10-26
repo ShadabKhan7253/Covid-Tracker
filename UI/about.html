@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Covid Tracker</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <style>
+    :root {
+      --primary-color: #0d1b48;
+      --secondary-color: #c33c54;
+      --bg-color: #f5f9fe;
+      --graph-color: #5a9aee;
+      --dark-color: #0b0f19;
+      --light-color: #fff;
+    }
+
+    /************************** ABOUT CONTENT START**************************/
+    .about-content {
+      margin: 50px 0;
+    }
+
+    .about-content h1 {
+      font-size: 3rem;
+      border-bottom: solid 2px #000;
+      color: var(--secondary-color);
+    }
+
+    .about-para {
+      text-align: justify;
+      line-height: 1.5;
+      margin: 15px 0;
+    }
+
+    /************************** ABOUT CONTENT END**************************/
+
+    /************************** ABOUT MISSION START**************************/
+
+    .mission {
+      background: var(--bg-color);
+      padding: 50px 0;
+    }
+
+    .about-mission {
+      display: flex;
+      flex-wrap: nowrap;
+      justify-content: space-between;
+    }
+
+    .about-mission > div:first-child {
+      width: 70%;
+    }
+
+    .second >div:last-child {
+      width: 70%;
+    }
+    .box-left {
+      padding-right: 20px;
+    }
+
+    .box-right {
+      padding-left: 20px;
+    }
+
+    .mision-img img {
+      border-radius: 20% 0;
+    }
+
+    .page-title {
+      color: var(--secondary-color);
+      border-bottom: 2px solid #000;
+      width: max-content;
+      font-size: 2rem;
+    }
+    /************************** ABOUT MISSION END**************************/
+
+    /************************** WORK START **************************/
+
+    .work {
+      margin: 30px 0;
+    }
+    .work-flex {
+      display: flex;
+      flex-wrap: nowrap;
+      margin: 20px 0;
+      justify-content: space-between;
+    }
+
+    .work-box {
+      margin: 0 10px;
+    }
+
+    .work-box img {
+      width: 350px;
+      height: 250px;
+    }
+
+    .work-box img:hover {
+      opacity: 0.8;
+      transition: 0.5s;
+    }
+    /************************** WORK END**************************/
+  </style>
+  <body>
+    <!-- NAVAGATION START -->
+    <header class="main-header">
+      <nav class="navbar">
+        <div>
+          <a href="#home"><img src="../images/final_logo.JPG" alt="" class="logo" /></a>
+        </div>
+        <ul class="menu-list">
+          <li class="menu-item">
+            <a class="underline-animation" href="./index.html"
+              ><i class="fa-solid fa-house"></i> home</a
+            >
+          </li>
+          <li class="menu-item has-sub-menu">
+            <a class="underline-animation" href="./covid_update.html"
+              ><i class="fa-solid fa-virus-covid"></i> covid update</a
+            >
+            <!-- <ul class="sub-menu menu-list">
+              <li><a class="underline-animation" href="">country wise</a></li>
+              <li><a class="underline-animation" href="">day wise</a></li>
+            </ul> -->
+          </li>
+          <li class="menu-item">
+            <a class="underline-animation" href="#"
+              ><i class="fa-solid fa-hand-holding-dollar"></i> donate</a
+            >
+          </li>
+          <li class="menu-item">
+            <a class="underline-animation" href="#"><i class="fa-solid fa-phone"></i> contact us</a>
+          </li>
+          <li class="menu-item">
+            <a class="underline-animation" href="#"
+              ><i class="fa-solid fa-circle-info"></i> about us</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <!-- NAVAGATION END -->
+
+    <!-- CONTENT START -->
+
+    <section>
+      <div class="container">
+        <div class="about-content">
+          <h1>About the organization</h1>
+          <p class="about-para">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa est asperiores eveniet
+            porro libero, dignissimos tempora ad eius optio quas consequatur corrupti cum dicta
+            sequi, ducimus doloribus error. Nulla adipisci consequuntur voluptate reprehenderit
+            cumque libero in nemo modi reiciendis, sed, deleniti possimus? Atque, ullam accusamus!
+            Cumque quia eos voluptate vel dolorum impedit delectus hic placeat maxime ullam
+            distinctio, incidunt error laudantium nihil exercitationem. Consequatur, quasi! Quasi
+            rerum similique deserunt vel adipisci officiis repellat sit temporibus maxime laborum
+            exercitationem consectetur molestias sequi, ea vitae molestiae atque at velit quis, quae
+            blanditiis? Suscipit at praesentium possimus inventore quos sequi sed magni blanditiis!
+          </p>
+          <p class="about-para">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa est asperiores eveniet
+            porro libero, dignissimos tempora ad eius optio quas consequatur corrupti cum dicta
+            sequi, ducimus doloribus error. Nulla adipisci consequuntur voluptate reprehenderit
+            cumque libero in nemo modi reiciendis, sed, deleniti possimus? Atque, ullam accusamus!
+            Cumque quia eos voluptate vel dolorum impedit delectus hic placeat maxime ullam
+            distinctio, incidunt error laudantium nihil exercitationem. Consequatur, quasi! Quasi
+            rerum similique deserunt vel adipisci officiis repellat sit temporibus maxime laborum
+            exercitationem consectetur molestias sequi, ea vitae molestiae atque at velit quis, quae
+            blanditiis? Suscipit at praesentium possimus inventore quos sequi sed magni blanditiis!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni natus error sed numquam
+            nam, laudantium doloremque libero qui exercitationem quaerat voluptas! Voluptates
+            voluptas sit nam, sed autem, natus distinctio debitis at animi modi, commodi totam
+            earum. Ducimus laudantium ad harum perferendis consectetur sed possimus est numquam
+            laborum quasi. Omnis, fugit!
+          </p>
+        </div>
+      </div>
+      <div class="mission">
+        <div class="container">
+          <div class="about-mission">
+            <div class="mission-box">
+              <div class="box-left">
+                <h1 class="page-title">Our Mission</h1>
+                <p class="about-para">"Save lives and protect people's health"</p>
+                <p class="about-para">
+                  Saving lives and protecting people’s health by increasing equitable and
+                  sustainable use of vaccines.
+                </p>
+                <p class="about-para">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, quos cum aliquid
+                  pariatur aspernatur, Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Tenetur hic, tempora ut dolorem inventore vitae corporis aliquid at sed iusto
+                  molestias dolore dicta itaque dolor blanditiis atque non placeat nesciunt?
+                </p>
+                <p class="about-para">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, quos cum aliquid
+                  pariatur aspernatur, Lors aliquid at sed iusto molestias dolore dicta itaque dolor
+                  blanditiis atque non placeat nesciunt?
+                </p>
+              </div>
+            </div>
+            <div class="mission-box">
+              <div class="mision-img">
+                <img src="../images/vaccine.jpg" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="work">
+        <div class="container">
+          <h1 class="page-title">Some of our work</h1>
+          <div class="work-flex">
+            <div class="work-box">
+              <img src="../images/work/work6.jpg" alt="" />
+            </div>
+            <div class="work-box">
+              <img src="../images/work/work5.jpg" alt="" />
+            </div>
+            <div class="work-box">
+              <img src="../images/work/work3.jpeg" alt="" />
+            </div>
+          </div>
+          <div class="work-flex">
+            <div class="work-box">
+              <img src="../images/work/work4.jpg" alt="" />
+            </div>
+            <div class="work-box">
+              <img src="../images/work/work1.jpg" alt="" />
+            </div>
+            <div class="work-box">
+              <img src="../images/work/work2.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="impact">
+        <div class="container">
+            <div class="container">
+              <h1 class="page-title">Our Impact</h1>
+                <div class="about-mission">
+                  <div class="mission-box">
+                    <div class="box-left">
+                      <p class="about-para">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, quos cum aliquid
+                        pariatur aspernatur, Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Tenetur hic, tempora ut dolorem inventore vitae corporis aliquid at sed iusto
+                        molestias dolore dicta itaque dolor blanditiis atque non placeat nesciunt?
+                      </p>
+                      <p class="about-para">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, quos cum aliquid
+                        pariatur aspernatur, Lors aliquid at sed iusto molestias dolore dicta itaque dolor
+                        blanditiis atque non placeat nesciunt?
+                      </p>
+                    </div>
+                  </div>
+                  <div class="mission-box">
+                    <div class="mision-img">
+                      <img src="../images/im1.jpg" alt="" />
+                    </div>
+                  </div>
+                </div>
+
+                <div class="about-mission second">
+                  <div class="mission-box">
+                    <div class="mision-img">
+                      <img src="../images/vaccine.jpg" alt="" />
+                    </div>
+                  </div>
+                  <div class="mission-box">
+                    <div class="box-right">
+                      <p class="about-para">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, quos cum aliquid
+                        pariatur aspernatur, Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Tenetur hic, tempora ut dolorem inventore vitae corporis aliquid at sed iusto
+                        molestias dolore dicta itaque dolor blanditiis atque non placeat nesciunt?
+                      </p>
+                      <p class="about-para">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, quos cum aliquid
+                        pariatur aspernatur, Lors aliquid at sed iusto molestias dolore dicta itaque dolor
+                        blanditiis atque non placeat nesciunt?
+                      </p>
+                    </div>
+                  </div>
+                </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTENT END -->
+
+    <!-- FOOTER START -->
+    <footer>
+      <!-- <div class="backToTop">
+        <a href="#section_bg"><span class="text-center">Back To top</span></a>
+      </div> -->
+
+      <a href="#section_bg" class="backToTop"><span class="text-center">Back to top</span></a>
+
+      <div class="container">
+        <div class="footer-container">
+          <div class="footer-box">
+            <a href="#section_bg"><img src="../images/final_logo.JPG" alt="" /></a>
+            <h2>Stronger communities. Stronger India.</h2>
+            <p>
+              I want all people to be Indians first, Indian last, and nothing else but Indians.”
+            </p>
+          </div>
+          <div class="footer-box">
+            <div class="navigation_box">
+              <h4 class="navTitle">Navigation</h4>
+              <ul class="navigation_list">
+                <a href="./index.html"
+                  ><li><i class="fa-solid fa-house"></i> Home</li></a
+                >
+                <a href="./covid_update.html"
+                  ><li><i class="fa-solid fa-virus-covid"></i> Covid Update</li></a
+                >
+                <a href=""
+                  ><li><i class="fa-solid fa-hand-holding-dollar"></i> Donate</li></a
+                >
+                <a href=""
+                  ><li><i class="fa-solid fa-phone"></i> Contact Us</li></a
+                >
+                <a href="#"
+                  ><li><i class="fa-solid fa-circle-info"></i> About Us</li></a
+                >
+              </ul>
+            </div>
+          </div>
+          <div class="footer-box">
+            <h1>Shadab</h1>
+            <h2>Khan</h2>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- FOOTER END -->
+
+    <!-- <script src="./script.js"></script> -->
+    <script src="./JS/main.js"></script>
+  </body>
+</html>
+<!-- Our mission: save lives and protect people's health
+Saving lives and protecting people’s health by increasing equitable and sustainable use of vaccines. -->
