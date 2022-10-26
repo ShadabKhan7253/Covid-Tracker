@@ -172,7 +172,7 @@ ul.sub-menu a {
 /*********************************** SECTION START ************************************/
 
 #section_bg {
-  background: #333 url('./images/covid_bg.jpg') no-repeat center center;
+  background: #333 url('../images/covid_bg.jpg') no-repeat center center;
   background-size: cover;
   height: 100vh;
   color: var(--light-color);
