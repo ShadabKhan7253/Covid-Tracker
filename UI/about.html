@@ -60,7 +60,7 @@
       width: 70%;
     }
 
-    .second >div:last-child {
+    .second > div:last-child {
       width: 70%;
     }
     .box-left {
@@ -73,6 +73,8 @@
 
     .mision-img img {
       border-radius: 20% 0;
+      height: 350px;
+      width: 600px;
     }
 
     .page-title {
@@ -109,6 +111,17 @@
       transition: 0.5s;
     }
     /************************** WORK END**************************/
+
+    /************************** IMPACT START**************************/
+    .impact {
+      background-color: var(--bg-color);
+      padding: 30px 0;
+    }
+
+    .impact-section {
+      margin: 30px 0;
+    }
+    /************************** IMPACT END**************************/
   </style>
   <body>
     <!-- NAVAGATION START -->
@@ -152,7 +165,7 @@
 
     <!-- CONTENT START -->
 
-    <section>
+    <section id="top">
       <div class="container">
         <div class="about-content">
           <h1>About the organization</h1>
@@ -185,6 +198,8 @@
           </p>
         </div>
       </div>
+
+      <!-- MISSION -->
       <div class="mission">
         <div class="container">
           <div class="about-mission">
@@ -217,7 +232,9 @@
           </div>
         </div>
       </div>
+      <!-- /MISSION -->
 
+      <!-- WORK -->
       <div class="work">
         <div class="container">
           <h1 class="page-title">Some of our work</h1>
@@ -245,61 +262,84 @@
           </div>
         </div>
       </div>
+      <!-- /WORK -->
 
+      <!-- IMPACT -->
       <div class="impact">
         <div class="container">
-            <div class="container">
-              <h1 class="page-title">Our Impact</h1>
-                <div class="about-mission">
-                  <div class="mission-box">
-                    <div class="box-left">
-                      <p class="about-para">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, quos cum aliquid
-                        pariatur aspernatur, Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                        Tenetur hic, tempora ut dolorem inventore vitae corporis aliquid at sed iusto
-                        molestias dolore dicta itaque dolor blanditiis atque non placeat nesciunt?
-                      </p>
-                      <p class="about-para">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, quos cum aliquid
-                        pariatur aspernatur, Lors aliquid at sed iusto molestias dolore dicta itaque dolor
-                        blanditiis atque non placeat nesciunt?
-                      </p>
-                    </div>
-                  </div>
-                  <div class="mission-box">
-                    <div class="mision-img">
-                      <img src="../images/im1.jpg" alt="" />
-                    </div>
-                  </div>
-                </div>
+          <h1 class="page-title">Our Impact</h1>
+          <div class="about-mission impact-section">
+            <div class="mission-box">
+              <div class="box-left">
+                <p class="about-para">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, quos cum aliquid
+                  pariatur aspernatur, Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Tenetur hic, tempora ut dolorem inventore vitae corporis aliquid at sed iusto
+                  molestias dolore dicta itaque dolor blanditiis atque non placeat nesciunt?
+                </p>
+                <p class="about-para">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, quos cum aliquid
+                  pariatur aspernatur, Lors aliquid at sed iusto molestias dolore dicta itaque dolor
+                  blanditiis atque non placeat nesciunt?
+                </p>
+              </div>
+            </div>
+            <div class="mission-box">
+              <div class="mision-img">
+                <img src="../images/im1.jpg" alt="" />
+              </div>
+            </div>
+          </div>
 
-                <div class="about-mission second">
-                  <div class="mission-box">
-                    <div class="mision-img">
-                      <img src="../images/vaccine.jpg" alt="" />
-                    </div>
-                  </div>
-                  <div class="mission-box">
-                    <div class="box-right">
-                      <p class="about-para">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, quos cum aliquid
-                        pariatur aspernatur, Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                        Tenetur hic, tempora ut dolorem inventore vitae corporis aliquid at sed iusto
-                        molestias dolore dicta itaque dolor blanditiis atque non placeat nesciunt?
-                      </p>
-                      <p class="about-para">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, quos cum aliquid
-                        pariatur aspernatur, Lors aliquid at sed iusto molestias dolore dicta itaque dolor
-                        blanditiis atque non placeat nesciunt?
-                      </p>
-                    </div>
-                  </div>
-                </div>
+          <div class="about-mission second impact-section">
+            <div class="mission-box">
+              <div class="mision-img">
+                <img src="../images/vaccine.jpg" alt="" />
+              </div>
+            </div>
+            <div class="mission-box">
+              <div class="box-right">
+                <p class="about-para">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, quos cum aliquid
+                  pariatur aspernatur, Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Tenetur hic, tempora ut dolorem inventore vitae corporis aliquid at sed iusto
+                  molestias dolore dicta itaque dolor blanditiis atque non placeat nesciunt?
+                </p>
+                <p class="about-para">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, quos cum aliquid
+                  pariatur aspernatur, Lors aliquid at sed iusto molestias dolore dicta itaque dolor
+                  blanditiis atque non placeat nesciunt?
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="about-mission third impact-section">
+            <div class="mission-box">
+              <div class="box-left">
+                <p class="about-para">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, quos cum aliquid
+                  pariatur aspernatur, Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Tenetur hic, tempora ut dolorem inventore vitae corporis aliquid at sed iusto
+                  molestias dolore dicta itaque dolor blanditiis atque non placeat nesciunt?
+                </p>
+                <p class="about-para">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, quos cum aliquid
+                  pariatur aspernatur, Lors aliquid at sed iusto molestias dolore dicta itaque dolor
+                  blanditiis atque non placeat nesciunt?
+                </p>
+              </div>
+            </div>
+            <div class="mission-box">
+              <div class="mision-img">
+                <img src="../images/im2.jpg" alt="" />
+              </div>
+            </div>
+          </div>
         </div>
       </div>
+      <!-- /IMPACT -->
     </section>
-
-    <!-- CONTENT END -->
 
     <!-- FOOTER START -->
     <footer>
@@ -307,7 +347,7 @@
         <a href="#section_bg"><span class="text-center">Back To top</span></a>
       </div> -->
 
-      <a href="#section_bg" class="backToTop"><span class="text-center">Back to top</span></a>
+      <a href="#top" class="backToTop"><span class="text-center">Back to top</span></a>
 
       <div class="container">
         <div class="footer-container">
@@ -348,10 +388,5 @@
       </div>
     </footer>
     <!-- FOOTER END -->
-
-    <!-- <script src="./script.js"></script> -->
-    <script src="./JS/main.js"></script>
   </body>
 </html>
-<!-- Our mission: save lives and protect people's health
-Saving lives and protecting people’s health by increasing equitable and sustainable use of vaccines. -->
