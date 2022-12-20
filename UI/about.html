@@ -13,6 +13,11 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
   </head>
   <body>
     <!-- NAVAGATION START -->
@@ -94,7 +99,7 @@
       <div class="mission">
         <div class="container">
           <div class="about-mission">
-            <div class="mission-box">
+            <div class="mission-box wow animate__animated animate__fadeInLeft animate__delay-0.5s">
               <div class="box-left">
                 <h1 class="page-title">Our Mission</h1>
                 <p class="about-para">"Save lives and protect people's health"</p>
@@ -115,7 +120,7 @@
                 </p>
               </div>
             </div>
-            <div class="mission-box">
+            <div class="mission-box wow animate__animated animate__fadeInRight animate__delay-0.5s">
               <div class="mision-img">
                 <img src="../images/vaccine.jpg" alt="" />
               </div>
@@ -130,22 +135,24 @@
         <div class="container">
           <h1 class="page-title">Some of our work</h1>
           <div class="work-flex">
-            <div class="work-box"><img src="../images/work/work6.jpg" alt="" /></div>
-            <div class="work-box">
+            <div class="work-box wow animate__animated animate__fadeInLeft animate__delay-1s">
+              <img src="../images/work/work6.jpg" alt="" />
+            </div>
+            <div class="work-box wow animate__animated animate__fadeInDown animate__delay-0.5s">
               <img src="../images/work/work5.jpg" alt="" />
             </div>
-            <div class="work-box">
+            <div class="work-box wow animate__animated animate__fadeInRight animate__delay-1s">
               <img src="../images/work/work3.jpeg" alt="" />
             </div>
           </div>
           <div class="work-flex">
-            <div class="work-box">
+            <div class="work-box wow animate__animated animate__fadeInLeft animate__delay-1s">
               <img src="../images/work/work4.jpg" alt="" />
             </div>
-            <div class="work-box">
+            <div class="work-box wow animate__animated animate__fadeInUp animate__delay-0.5s">
               <img src="../images/work/work1.jpg" alt="" />
             </div>
-            <div class="work-box">
+            <div class="work-box wow animate__animated animate__fadeInRight animate__delay-1s">
               <img src="../images/work/work2.jpg" alt="" />
             </div>
           </div>
@@ -159,7 +166,7 @@
           <h1 class="page-title">Our Impact</h1>
           <div class="about-mission impact-section">
             <div class="mission-box">
-              <div class="box-left">
+              <div class="box-left wow animate__animated animate__fadeInLeft animate__delay-0.5s">
                 <p class="about-para">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, quos cum aliquid
                   pariatur aspernatur, Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -173,7 +180,7 @@
                 </p>
               </div>
             </div>
-            <div class="mission-box">
+            <div class="mission-box wow animate__animated animate__fadeInRight animate__delay-0.5s">
               <div class="mision-img">
                 <img src="../images/im3.jpg" alt="" />
               </div>
@@ -181,12 +188,12 @@
           </div>
 
           <div class="about-mission second impact-section">
-            <div class="mission-box">
+            <div class="mission-box wow animate__animated animate__fadeInLeft animate__delay-0.5s">
               <div class="mision-img">
                 <img src="../images/im1.jpg" alt="" />
               </div>
             </div>
-            <div class="mission-box">
+            <div class="mission-box wow animate__animated animate__fadeInRight animate__delay-0.5s">
               <div class="box-right">
                 <p class="about-para">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, quos cum aliquid
@@ -205,7 +212,7 @@
           </div>
 
           <div class="about-mission third impact-section">
-            <div class="mission-box">
+            <div class="mission-box wow animate__animated animate__fadeInLeft animate__delay-0.5s">
               <div class="box-left">
                 <p class="about-para">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, quos cum aliquid
@@ -223,7 +230,7 @@
                 </p>
               </div>
             </div>
-            <div class="mission-box">
+            <div class="mission-box wow animate__animated animate__fadeInRight animate__delay-0.5s">
               <div class="mision-img">
                 <img src="../images/im2.jpg" alt="" />
               </div>
@@ -281,5 +288,8 @@
       </div>
     </footer>
     <!-- FOOTER END -->
+    <script>
+      new WOW().init();
+    </script>
   </body>
 </html>
