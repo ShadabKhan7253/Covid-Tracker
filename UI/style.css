@@ -452,3 +452,175 @@ footer {
 }
 
 /*********************************** FOOTER END ************************************/
+
+/* ======================================================================================================= */
+/* ============================       COVID UPDATE PAGE        ============================================ */
+/* ======================================================================================================= */
+
+body {
+  background-color: #f5f9fe;
+}
+
+.table-container {
+  overflow-y: scroll;
+  max-height: 70vh;
+  margin: 20px;
+  /* border: 1px solid black;
+  border-radius: 4px; */
+  box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.9);
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  margin-top: 20px;
+  padding: 20px;
+}
+
+table th {
+  position: sticky;
+  top: 0px;
+  text-transform: capitalize;
+  background-color: #000;
+  color: #fff;
+  text-align: left;
+  font-weight: normal;
+  font-size: 16px;
+}
+
+.table th,
+.table td {
+  padding: 10px 15px;
+  border: 1px solid #ddd;
+}
+
+table td {
+  text-align: left;
+  font-size: 15px;
+  border: 1px solid rgb(177, 177, 177);
+  padding-left: 20px;
+}
+
+tr:hover {
+  background-color: #ffa;
+}
+
+.table tr td:hover:nth-child(5) {
+  background-color: rgb(231, 83, 115);
+  color: #fff;
+  font-weight: bold;
+  border: 0.5px solid rgb(12, 12, 12);
+}
+
+.table tr td:hover {
+  background-color: rgb(117, 223, 122);
+  font-weight: bold;
+  color: #fff;
+  border: 0.5px solid rgb(12, 12, 12);
+}
+
+/* ======================================================================================================= */
+/* ===================================      ABOUT PAGE        ============================================ */
+/* ======================================================================================================= */
+
+/************************** ABOUT CONTENT START**************************/
+.about-content {
+  margin: 50px 0;
+}
+
+.about-content h1 {
+  font-size: 3rem;
+  /* border-bottom: solid 2px #000; */
+  color: var(--secondary-color);
+}
+
+.about-para {
+  text-align: justify;
+  line-height: 1.5;
+  margin: 15px 0;
+}
+
+/************************** ABOUT CONTENT END**************************/
+
+/************************** ABOUT MISSION START**************************/
+
+.mission {
+  background: var(--bg-color);
+  padding: 50px 0;
+}
+
+.about-mission {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+.about-mission > div:first-child {
+  width: 70%;
+}
+
+.second > div:last-child {
+  width: 70%;
+}
+.box-left {
+  padding-right: 20px;
+}
+
+.box-right {
+  padding-left: 20px;
+}
+
+.mision-img img {
+  border-radius: 20% 0;
+  height: 350px;
+  width: 600px;
+}
+
+.page-title {
+  color: var(--secondary-color);
+  /* border-bottom: 2px solid #000; */
+  width: max-content;
+  font-size: 2rem;
+}
+/************************** ABOUT MISSION END**************************/
+
+/************************** WORK START **************************/
+
+.work {
+  margin: 30px 0;
+}
+.work-flex {
+  display: flex;
+  flex-wrap: nowrap;
+  margin: 20px 0;
+  justify-content: space-between;
+}
+
+.work-box {
+  margin: 0 10px;
+}
+
+.work-box img {
+  width: 350px;
+  height: 250px;
+  border-radius: 10% 0;
+}
+
+.work-box img:hover {
+  opacity: 0.8;
+  transition: 0.5s;
+  cursor: pointer;
+}
+/************************** WORK END**************************/
+
+/************************** IMPACT START**************************/
+.impact {
+  background-color: var(--bg-color);
+  padding: 30px 0;
+}
+
+.impact-section {
+  margin: 30px 0;
+}
+/************************** IMPACT END**************************/
