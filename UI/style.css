@@ -191,7 +191,7 @@ ul.sub-menu li:hover {
   background-size: cover;
   height: 100vh;
   color: var(--light-color);
-  border-radius: 0 0 5% 5%;
+  /* border-radius: 0 0 15% 15%; */
 }
 
 .content_start {
@@ -279,7 +279,7 @@ ul.sub-menu li:hover {
   cursor: pointer;
 }
 
-/*********** COWIN ******/
+/***********************************COWIN ************************************/
 
 .cowin {
   background: var(--bg-color);
@@ -342,7 +342,69 @@ ul.sub-menu li:hover {
   color: var(--light-color);
 }
 
-/******* FOOTER *****/
+/*********************************** COVID BASICS ************************************/
+
+.covid_basic {
+  margin: 30px 0;
+}
+
+/* =========================================================== */
+.collapsible {
+  /* background-color: #777; */
+  background-color: var(--secondary-color);
+  text-transform: uppercase;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.active,
+.collapsible:hover {
+  /* background-color: #555; */
+  background-color: var(--primary-color);
+}
+
+.collapsible:after {
+  content: '\002B';
+  color: white;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: '\2212';
+}
+
+.content {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  text-align: justify;
+  transition: max-height 0.2s ease-out;
+  background-color: var(--bg-color);
+}
+
+.content p span {
+  font-weight: bold;
+}
+
+.content p:first-child {
+  margin-top: 10px;
+}
+
+.content p:last-child {
+  margin-bottom: 50px;
+}
+
+/*********************************** SECTION END ************************************/
+
+/*********************************** FOOTER START ************************************/
 
 footer {
   background: var(--primary-color);
@@ -389,4 +451,4 @@ footer {
   margin-bottom: 0.7rem;
 }
 
-/*********************************** SECTION END ************************************/ ;
+/*********************************** FOOTER END ************************************/
